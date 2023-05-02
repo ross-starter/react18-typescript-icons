@@ -1,0 +1,21 @@
+.listGroup {
+    list-style:none;
+    padding: 0;
+    color:rgb(94, 94, 94);
+}
+.listGroup li {
+    border-bottom: 1px solid rgb(227, 227, 227);
+    padding: 3px 10px;
+}
+.listGroup li svg{
+    margin-right: 6px;
+    padding-bottom:4px;
+    padding-top:0;
+}
+.listGroupItemActive {
+    background-color:rgb(85, 181, 249);
+    color:white;
+}
+.container {
+    background-color:white;
+}
