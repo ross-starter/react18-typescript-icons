@@ -2,6 +2,7 @@ import ListGroup from "./components/ListGroup";
 import Alert from "./components/Alert";
 import Button from "./components/Button/Button";
 import { useState } from "react";
+import LikeIcon from "./components/LikeIcon";
 
 function App() {
   let items = ["New York", "San Francisco", "Los Angeles", "San Diego"];
@@ -23,6 +24,9 @@ function App() {
   const handleButtonClickSubmit = () => {
     console.log("clicked Submit Button");
     setAlertVisibility(true);
+  };
+  const handleLikeIconClick = (itemID: string, isLiked: boolean) => {
+    console.log(itemID, "is-liked?>", isLiked);
   };
 
   return (
@@ -63,6 +67,16 @@ function App() {
         >
           Submit
         </Button>
+      </div>
+
+      <div className="col-12">
+        <LikeIcon
+          ID={"abc-123"}
+          size={25}
+          isLiked={false}
+          onClick={handleLikeIconClick}
+        />{" "}
+        Like
       </div>
     </div>
   );
