@@ -1,6 +1,6 @@
 import { useState } from "react";
 import styles from "./ListGroup.module.css";
-import { RiMapPinLine } from "react-icons/ri";
+import { RiMapPinLine } from "react-icons/ri"; 
 
 interface Props {
   heading?: string;

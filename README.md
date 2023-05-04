@@ -56,3 +56,5 @@ In CSS modules all class names are scoped locally; thus preventing clashes w oth
 
 Install
 $> npm i react-icons@4.7.1
+
+- added a 'like' icon component

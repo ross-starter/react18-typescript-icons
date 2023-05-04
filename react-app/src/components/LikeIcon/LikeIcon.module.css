@@ -1,0 +1,16 @@
+.likeIcon {
+    color:rgb(193, 193, 193);
+    margin-right: 3px;
+}
+.likeIconLiked {
+    color:red; 
+}
+ 
+.likeIcon:hover{
+    color:red;
+    cursor:pointer;
+}
+
+.floatLeft {
+    float:left;
+}
